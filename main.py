@@ -182,7 +182,7 @@ def plot():
     fig.show()
 
 
-def get_params(filename='config.ini', section='tweeter'):
+def get_params(filename='config.ini', section='twitter'):
     parser = ConfigParser()
     parser.read(filename)
 
